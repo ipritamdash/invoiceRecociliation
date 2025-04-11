@@ -1,8 +1,6 @@
 services:
-  - type: web
+  - type: static
     name: gst-recon-manual
-    env: node
-    buildCommand: npm run build
-    startCommand: npm run preview
     staticPublishPath: dist
+    buildCommand: npm run build
     branch: master
