@@ -1,6 +1,0 @@
-services:
-  - type: static
-    name: gst-recon-manual
-    staticPublishPath: dist
-    buildCommand: npm run build
-    branch: master
